@@ -1,0 +1,25 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  justify-content: center;
+}
+th {
+  background-color:grey;
+  color: white;
+}
+#point1 {
+  font: arial; font-style: oblique;
+}
+#point2 {
+  font-family: sans-serif; color: red
+}
+.info {
+  background-color: yellow
+}
+@media screen and  (max-width:600px) {
+  .info {
+    background-color:green;
+  }
+}
+
+}
